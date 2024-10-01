@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mercado"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+    <CheckBox
+        android:id="@+id/chkarroz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arroz (R$ 2,69)" />
+
+    <CheckBox
+        android:id="@+id/chkleite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leite (R$ 5,00)" />
+
+    <CheckBox
+        android:id="@+id/chkcarne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carne (R$ 10,00)" />
+
+    <CheckBox
+        android:id="@+id/chkfeijao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feijão (R$ 2,30)" />
+
+    <CheckBox
+        android:id="@+id/chkrefri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refrigerante Coca-Cola (R$ 2,00)" />
+
+    <Button
+        android:id="@+id/btntotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular Total" />
+</LinearLayout>
